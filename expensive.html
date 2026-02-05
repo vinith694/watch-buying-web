@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Luxury Watch</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .image-box {
+      flex: 1 1 300px;
+      background: #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .details {
+      flex: 1 1 300px;
+      padding: 30px;
+    }
+
+    .details h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .details .price {
+      font-size: 24px;
+      color: #008000;
+      margin-bottom: 20px;
+    }
+
+    .details p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .details button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #000;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .details button:hover {
+      background:linear-gradient(50deg, rgb(0, 0, 255), #ff6a00, #0ef706);
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-box, .details {
+        flex: 1 1 100%;
+      }
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .navbar {
+      text-align: center;
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+    <div class="navbar">
+    <h1>Expensive Watches</h1>
+    </div>
+  <div class="container">
+    <div class="image-box">
+      <img src="94326858f1e32f24e842ec985f6157d4.png" alt="Watch">
+    </div>
+    <div class="details">
+      <h1>FastTrack Chrono Watch</h1>
+      <div class="price">₹1,37,999</div>
+      <p>
+        This elegant FastTrack watch features a chronograph dial, stainless steel strap, and water-resistant casing. 
+        Perfect for formal occasions and everyday wear.
+      </p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+    <div class="container">
+    <div class="image-box">
+      <img src="OIP.webp" alt="Watch">
+    </div>
+    <div class="details">
+      <h1>FastTrack Chrono Watch</h1>
+      <div class="price">₹1,01,999</div>
+      <p>
+        This elegant FastTrack watch features a chronograph dial, stainless steel strap, and water-resistant casing. 
+        Perfect for formal occasions and everyday wear.
+      </p>
+      <button>Buy Now</button>
+    </div>
+    </div>
+    <div class="container">
+    <div class="image-box">
+      <img src="OIP.jpeg" alt="Watch">
+    </div>
+    <div class="details">
+      <h1>FastTrack Chrono Watch</h1>
+      <div class="price">₹1,00,999</div>
+      <p>
+        This elegant FastTrack watch features a chronograph dial, stainless steel strap, and water-resistant casing. 
+        Perfect for formal occasions and everyday wear.
+      </p>
+      <button>Buy Now</button>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 fastrack Watches. All rights reserved.
+  </footer>
+
+
+</body>
+</html>

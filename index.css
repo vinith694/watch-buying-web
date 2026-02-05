@@ -1,0 +1,290 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgb(127, 221, 221);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .image-box {
+      flex: 1 1 300px;
+      background: #52edf5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .details {
+      flex: 1 1 300px;
+      padding: 30px;
+    }
+
+    .details h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .details .price {
+      font-size: 24px;
+      color: #008000;
+      margin-bottom: 20px;
+    }
+
+    .details p {
+      font-size: 16px;
+      line-height: 1.5;
+      margin-bottom: 30px;
+    }
+
+    .details button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #000;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .details button:hover {
+      background-color: #444;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 700px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .image-box, .details {
+        flex: 1 1 100%;
+      }
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .navbar {
+      text-align: center;
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+      color: white;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background:white;
+      color: #333;
+    }
+
+    header {
+      background:linear-gradient(50deg, rgb(154, 223, 250), #8d8c8b);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      background: linear-gradient(-50deg, #ece9e9, #9fdcf2);
+      border: 1px solid #767373;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto 20px auto;
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+      margin-top: 30px;
+      color: #444;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    .buy-button {
+      display: inline-block;
+      background: linear-gradient(50deg, rgb(0, 0, 255), #ff6a00, #0ef706);
+      color: white;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 6px;
+      margin-top: 20px;
+      transition: transform 0.3s ease;
+      animation: fadeIn 1s ease-in-out;
+      cursor: pointer;
+    }
+    .buy-button:hover {
+      background:linear-gradient(50deg, rgb(247, 243, 7), #00eaff), #f30b8a;
+      color: white;
+      transform:scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      main {
+        margin: 15px;
+        padding: 20px;
+      }
+
+      footer {
+        font-size: 14px;
+      }
+    }
+    .navbar {
+            text-align: center;
+            width: 100%;
+            word-spacing: 300px;
+            padding: 10px;
+
+            background:linear-gradient(40deg, #53999b, #e6f9fa);
+            opacity: 0.9;
+            border-radius: 5px;
+        }
+        .navbar a {
+            color: rgb(235, 32, 188);
+            text-decoration: none;
+            margin: 0;
+            padding: auto;
+        }
+         @import url('https://fonts.googleapis.com/css2?family=poppins:200,300,400,500,600,700,800,900');
+
+.master{
+    position:absolute;
+    width: 100%;
+    height: 420px;
+    overflow:flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+/*.fpc video{
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    object-fit: cover;
+}*/
+.master{
+   position: absolute;
+    width: 100%;
+    height: 19%;
+    background-color: #000000;
+    font-family: 'poppins';
+    font-size:40px;
+    text-align:center;
+    text-transform:uppercase;
+    line-height:40px;
+    mix-blend-mode:screen;
+    background-repeat: no-repeat;
+    font-weight: 600;
+    position:relative;
+    animation:text 3s 1;
+    animation-iteration-count: no-repeat;
+    animation-delay: 1.5s;
+    background-size: 100px;
+
+}
+@keyframes text{
+    0%{
+        color:rgb(238, 53, 53);
+        letter-spacing: 80px;
+        line-height: 10px;
+   
+    }
+    15%{
+        color:rgb(238, 53, 229);
+        letter-spacing: 60px;
+        margin-bottom: 40px;
+    }
+    30%{
+        color:rgb(36, 119, 134);
+        letter-spacing: 40px;
+        margin-bottom:10px;
+    }
+  
+    85%{
+        color:rgb(36, 157, 58);
+        letter-spacing:20px;
+        margin-bottom:40px;
+    } 
+    100%{
+        color:rgb(217, 42, 191);
+        letter-spacing: 0px;
+        margin-bottom: 10px;
+    }
+}
+.master{
+    font-style: Arial, Helvetica, sans-serif;
+    font-weight: 900px;
+    font-variant: small-caps;
+    background-image: url('94326858f1e32f24e842ec985f6157d4.png');
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:5px #000;
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    background-clip : text;
+    -webkit-text-fill-color: transparent;
+    background-attachment: fixed;
+}
+#head{
+    text-align:center;
+    position:relative;
+    animation:text 3s 1;
+    animation-iteration-count: no-repeat;
+    animation-delay: 1.5s;
+    word-wrap:initial ;
+}
